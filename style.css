@@ -1,0 +1,74 @@
+body{
+    margin:0;
+    padding:0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.calci {
+    margin-top:1px;
+   text-align: center;
+   color: white;
+   margin-top: 40px;
+   
+}
+.container{
+    margin-bottom: 20px;
+    width:100%;
+    height:100vh;
+    /* background:black; */
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.calculator{
+    background:white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: -2px -2px 20px black, 5px 5px 5px black;
+}
+.calculator form input{
+    border: 0px;
+    outline: 0px;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black, 2px 2px 2px black;
+    background: transparent;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    margin: 10px;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    font-weight: 5px;
+
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+form input.equal{
+    width: 145px;
+}
+form input.operator{
+    color:grey ;
+    font-size: 25px;
+}
+form input.equalsto{
+    color: grey;
+    font-size: 25px;
+
+}
+/* form input .DEoperator{
+    color: grey
+    font-size: 25px;
+
+} */
